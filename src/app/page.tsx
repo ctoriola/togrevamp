@@ -17,7 +17,7 @@ export default function Home() {
             </div>
             <button className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-zinc-200 transition-colors">
               Visit Us
-              <span className="w-6 h-6 bg-amber-600 rounded-full flex items-center justify-center">
+              <span className="w-6 h-6 bg-[#9D00FF] rounded-full flex items-center justify-center">
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
@@ -27,7 +27,7 @@ export default function Home() {
         </nav>
 
         {/* Hero Content with Gradient Background */}
-        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-amber-700 via-amber-600 to-orange-700 p-8 md:p-12 min-h-[500px]">
+        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#9D00FF] via-[#7B00CC] to-[#5A0099] p-8 md:p-12 min-h-[500px]">
           {/* Background Image */}
           <div className="absolute right-0 top-0 w-full h-full">
             <div className="absolute right-0 top-0 w-3/4 h-full">
@@ -38,7 +38,7 @@ export default function Home() {
                 className="object-cover object-center opacity-80"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-amber-700 via-amber-600/80 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#9D00FF] via-[#7B00CC]/80 to-transparent" />
             </div>
           </div>
 
@@ -64,19 +64,19 @@ export default function Home() {
           <div className="absolute bottom-8 md:bottom-12 left-8 md:left-12 right-8 md:right-12 z-10">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
               <div>
-                <span className="text-amber-300 font-medium">Sunday</span>
+                <span className="text-[#D580FF] font-medium">Sunday</span>
                 <p className="text-white mt-1">9:00 AM & 11:00 AM</p>
               </div>
               <div>
-                <span className="text-amber-300 font-medium">Wednesday</span>
+                <span className="text-[#D580FF] font-medium">Wednesday</span>
                 <p className="text-white mt-1">7:00 PM Bible Study</p>
               </div>
               <div>
-                <span className="text-amber-300 font-medium">Youth Group</span>
+                <span className="text-[#D580FF] font-medium">Youth Group</span>
                 <p className="text-white mt-1">Fridays at 6:30 PM</p>
               </div>
               <div>
-                <span className="text-amber-300 font-medium">Prayer Meeting</span>
+                <span className="text-[#D580FF] font-medium">Prayer Meeting</span>
                 <p className="text-white mt-1">Saturdays at 8:00 AM</p>
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap items-center gap-8 md:gap-12">
             <div className="flex items-center gap-2 text-white">
-              <div className="w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-[#9D00FF] rounded-full flex items-center justify-center">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
                 </svg>
@@ -100,7 +100,7 @@ export default function Home() {
               <span className="font-medium">Children</span>
             </div>
             <div className="flex items-center gap-2 text-white">
-              <div className="w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-[#9D00FF] rounded-full flex items-center justify-center">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
@@ -108,7 +108,7 @@ export default function Home() {
               <span className="font-medium">Youth</span>
             </div>
             <div className="flex items-center gap-2 text-white">
-              <div className="w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-[#9D00FF] rounded-full flex items-center justify-center">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
@@ -116,7 +116,7 @@ export default function Home() {
               <span className="font-medium">Marriage</span>
             </div>
             <div className="flex items-center gap-2 text-white">
-              <div className="w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-[#9D00FF] rounded-full flex items-center justify-center">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                 </svg>
@@ -131,7 +131,7 @@ export default function Home() {
       <section className="px-6 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
-            <span className="text-amber-500 text-sm font-medium mb-4 block">About Our Church</span>
+            <span className="text-[#9D00FF] text-sm font-medium mb-4 block">About Our Church</span>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
               Building a<br />
               Community of<br />
@@ -148,7 +148,7 @@ export default function Home() {
             </p>
             <button className="flex items-center gap-2 border border-zinc-600 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:border-zinc-400 transition-colors">
               Learn More
-              <span className="w-6 h-6 bg-amber-600 rounded-full flex items-center justify-center">
+              <span className="w-6 h-6 bg-[#9D00FF] rounded-full flex items-center justify-center">
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
@@ -193,7 +193,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-between mb-10">
             <div>
-              <span className="text-amber-500 text-sm font-medium mb-2 block">What&apos;s Happening</span>
+              <span className="text-[#9D00FF] text-sm font-medium mb-2 block">What&apos;s Happening</span>
               <h2 className="text-3xl md:text-4xl font-bold">Upcoming Events</h2>
             </div>
             <button className="hidden md:flex items-center gap-2 border border-zinc-600 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:border-zinc-400 transition-colors">
@@ -216,7 +216,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6">
-                <div className="flex items-center gap-2 text-amber-500 text-sm mb-2">
+                <div className="flex items-center gap-2 text-[#9D00FF] text-sm mb-2">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
@@ -238,7 +238,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6">
-                <div className="flex items-center gap-2 text-amber-500 text-sm mb-2">
+                <div className="flex items-center gap-2 text-[#9D00FF] text-sm mb-2">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
@@ -260,7 +260,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6">
-                <div className="flex items-center gap-2 text-amber-500 text-sm mb-2">
+                <div className="flex items-center gap-2 text-[#9D00FF] text-sm mb-2">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
@@ -278,7 +278,7 @@ export default function Home() {
       <section className="px-6 py-16">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <span className="text-amber-500 text-sm font-medium mb-2 block">Watch & Listen</span>
+            <span className="text-[#9D00FF] text-sm font-medium mb-2 block">Watch & Listen</span>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Latest Sermons</h2>
             <p className="text-zinc-400 max-w-2xl mx-auto">Missed a Sunday? Catch up on recent messages from our pastoral team.</p>
           </div>
@@ -294,14 +294,14 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-16 h-16 bg-amber-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                <div className="w-16 h-16 bg-[#9D00FF] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                   <svg className="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <span className="text-amber-400 text-sm">Feb 2, 2025</span>
+                <span className="text-[#D580FF] text-sm">Feb 2, 2025</span>
                 <h3 className="text-xl font-semibold mt-1">Walking in Faith: Trusting God&apos;s Plan</h3>
                 <p className="text-zinc-300 text-sm mt-1">Pastor David Mitchell</p>
               </div>
@@ -310,8 +310,8 @@ export default function Home() {
             {/* Sermon List */}
             <div className="space-y-4">
               <div className="flex gap-4 p-4 bg-zinc-800/30 rounded-xl hover:bg-zinc-800/50 transition-colors cursor-pointer">
-                <div className="w-12 h-12 bg-amber-600/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#9D00FF]/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-[#9D00FF]" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
@@ -323,8 +323,8 @@ export default function Home() {
               </div>
 
               <div className="flex gap-4 p-4 bg-zinc-800/30 rounded-xl hover:bg-zinc-800/50 transition-colors cursor-pointer">
-                <div className="w-12 h-12 bg-amber-600/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#9D00FF]/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-[#9D00FF]" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
@@ -336,8 +336,8 @@ export default function Home() {
               </div>
 
               <div className="flex gap-4 p-4 bg-zinc-800/30 rounded-xl hover:bg-zinc-800/50 transition-colors cursor-pointer">
-                <div className="w-12 h-12 bg-amber-600/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#9D00FF]/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-[#9D00FF]" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
@@ -358,13 +358,13 @@ export default function Home() {
 
       {/* Get Connected CTA */}
       <section className="px-6 py-16">
-        <div className="max-w-4xl mx-auto bg-gradient-to-br from-amber-700 via-amber-600 to-orange-700 rounded-3xl p-8 md:p-12 text-center">
+        <div className="max-w-4xl mx-auto bg-gradient-to-br from-[#9D00FF] via-[#7B00CC] to-[#5A0099] rounded-3xl p-8 md:p-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Get Connected?</h2>
           <p className="text-white/80 text-lg mb-8 max-w-xl mx-auto">
             Whether you&apos;re new to faith or looking for a church home, we&apos;d love to meet you. Join us this Sunday!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="flex items-center justify-center gap-2 bg-white text-amber-800 px-6 py-3 rounded-full font-medium hover:bg-zinc-100 transition-colors">
+            <button className="flex items-center justify-center gap-2 bg-white text-[#7B00CC] px-6 py-3 rounded-full font-medium hover:bg-zinc-100 transition-colors">
               Plan Your Visit
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />

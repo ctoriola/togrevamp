@@ -3,8 +3,88 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#1a1512] text-white font-sans">
-      {/* Hero Section */}
       <section className="relative px-6 pt-6 pb-12">
+        <nav className="flex items-center justify-between mb-12 relative z-10">
+          <div className="text-xl font-semibold">Temple of Glory</div>
+          <div className="flex items-center gap-8">
+            <div className="hidden md:flex items-center gap-8 text-sm text-zinc-300">
+              <a href="#" className="hover:text-white transition-colors">Home</a>
+              <a href="#" className="hover:text-white transition-colors">About</a>
+              <a href="#" className="hover:text-white transition-colors">Services</a>
+              <a href="#" className="hover:text-white transition-colors">Events</a>
+            </div>
+            <button className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-zinc-200 transition-colors">
+              Visit Us
+              <span className="w-6 h-6 bg-[#9D00FF] rounded-full flex items-center justify-center">
+                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </nav>
+
+        <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#9D00FF] via-[#7B00CC] to-[#5A0099] p-8 md:p-12 min-h-[500px]">
+          <div className="absolute right-0 top-0 w-full h-full">
+            <div className="absolute right-0 top-0 w-3/4 h-full">
+              <Image
+                src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?w=800&h=1000&fit=crop"
+                alt="Worship at Temple of Glory"
+                fill
+                className="object-cover object-center opacity-80"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#9D00FF] via-[#7B00CC]/80 to-transparent" />
+            </div>
+          </div>
+
+          <div className="relative z-10 max-w-xl">
+            <p className="text-white/90 text-sm mb-2">Welcome to</p>
+            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
+              Temple of<br />Glory Abuja
+            </h1>
+          </div>
+
+          <div className="absolute right-8 md:right-12 top-1/3 z-10 max-w-xs text-right">
+            <h2 className="text-xl md:text-2xl font-semibold mb-3">
+              Where Faith Grows &<br />Community Thrives
+            </h2>
+            <p className="text-white/70 text-sm">
+              Experience spirit-led worship in the<br />serene gardens of Livingbrooks Park.
+            </p>
+          </div>
+
+          <div className="absolute bottom-8 md:bottom-12 left-8 md:left-12 right-8 md:right-12 z-10">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
+              <div>
+                <span className="text-[#D580FF] font-medium">Sunday Worship</span>
+                <p className="text-white mt-1">Join Us Weekly</p>
+              </div>
+              <div>
+                <span className="text-[#D580FF] font-medium">Location</span>
+                <p className="text-white mt-1">Livingbrooks Park, Asokoro</p>
+              </div>
+              <div>
+                <span className="text-[#D580FF] font-medium">Prophetic Teaching</span>
+                <p className="text-white mt-1">Spirit-Led Messages</p>
+              </div>
+              <div>
+                <span className="text-[#D580FF] font-medium">Community</span>
+                <p className="text-white mt-1">Fellowship & Growth</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer className="px-6 py-12 border-t border-zinc-800">
+        <div className="max-w-6xl mx-auto text-center text-zinc-500 text-sm">
+          <p>&copy; 2025 Temple of Glory Abuja. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+  );
+}
         {/* Navigation */}
         <nav className="flex items-center justify-between mb-12 relative z-10">
           <div className="text-xl font-semibold">Temple of Glory</div>

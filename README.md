@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Temple of Glory Abuja
+
+A modern, visually stunning website for Temple of Glory Abuja built with [Next.js](https://nextjs.org), featuring responsive design, smooth animations, and an extensive component library.
+
+## About the Project
+
+Temple of Glory Abuja is a contemporary place of worship with a digital presence that reflects its mission and community values. This website serves as the primary digital touchpoint for visitors, members, and the broader community.
+
+## Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org) with TypeScript
+- **Styling**: [Tailwind CSS](https://tailwindcss.com) with typography
+- **UI Components**: [Radix UI](https://www.radix-ui.com) primitive components
+- **Icons**: [@tabler/icons-react](https://tabler-icons.io) and [@heroicons/react](https://heroicons.com)
+- **Authentication**: [Better Auth](https://betterauth.dev)
+- **Database**: [LibSQL](https://turso.tech)
+- **Form Handling**: [React Hook Form](https://react-hook-form.com) with Zod validation
+- **Visualization**: [Three.js](https://threejs.org) for 3D elements, [Cobe](https://cobe.io) for globe, and [tsParticles](https://tsparticles.js.org)
+- **Animations**: Framer Motion
+- **Build Tool**: Turbopack
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
 
+### Installation
+
+1. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the website.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The page auto-updates as you edit files in `src/app/page.tsx`.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/              # Next.js app directory with pages and layouts
+├── components/       # React components
+│   └── ui/          # Reusable UI component library
+├── hooks/           # Custom React hooks
+├── lib/             # Utility functions and helpers
+└── visual-edits/    # Visual editing and messaging components
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Responsive Design**: Mobile-first approach with seamless experience across devices
+- **Component Library**: Comprehensive set of reusable UI components from Radix UI
+- **Modern Aesthetics**: Gradient backgrounds, smooth transitions, and polished interactions
+- **3D Elements**: Three.js integration for enhanced visual experiences
+- **Visual Editing**: Built-in visual editing capabilities for content management
+- **Error Handling**: Comprehensive error reporting and user-friendly error messages
 
-## Deploy on Vercel
+## Available Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build for production
+- `npm start` - Start production server
+- `npm run lint` - Run ESLint checks
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Development
+
+The project uses modern development tools and best practices:
+- TypeScript for type safety
+- ESLint for code quality
+- Tailwind CSS for styling consistency
+- Component-driven development with Radix UI primitives
+
+## Contributing
+
+When contributing to this project, please follow the existing code structure and component patterns.
+
+## License
+
+Private project for Temple of Glory Abuja.
